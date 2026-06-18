@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF.8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is my portafolio" />
+    <meta
+      name="keywords"
+      content="fullstack, springboot, react, html, css, javascript"
+    />
+    <meta name="author" content="Manuel" />
+    <meta
+      property="og:title"
+      content="Developer - Manuel Josué Cárdenas Sánchez"
+    />
+    <meta
+      property="og:description"
+      content="In my webpage you can see my skills and projects where i have worked"
+    />
+    <meta
+      property="og:image"
+      content="https://scontent.flir1-1.fna.fbcdn.net/v/t1.6435-9/140580274_2774262286125165_6174042703293618396_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Fnnze06S0X0Q7kNvwHMK5hh&_nc_oc=AdoUAv2Hmfa-KEwhNfuZmP2H29oWEk9XoACqlY2xiLct6kJWukOHMepIDiORNj8vi8A&_nc_zt=23&_nc_ht=scontent.flir1-1.fna&_nc_gid=tPOxE6Zq9OfSOsOHXJlNNA&_nc_ss=7a3a8&oh=00_Af1RQBGpHM4Yqr283EL2WKLlMtpAx0CFhm3EXaxPmdy21Q&oe=6A025B36"
+    />
+    <meta property="og:url" content="" />
+    <meta property="type" content="article" />
+    <title>My Portafolio</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Manuel</h1>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#about">About Me</a></li>
+          <li><a href="../index.html#skills">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br /><br />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <h2>CONTACTING............</h2>
+
+    <section class="main-form">
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>-HIT ME UP!-</legend>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Your full name"
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter you email"
+          />
+          <label for="phone">Phone</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            placeholder="Enter your cell phone"
+          />
+
+          <label for="age">Select your age</label>
+          <input type="date" id="age" name="age" required />
+
+          <fieldset>
+            <legend>-Why are you contacting me?-</legend>
+            <select id="contact-mode" name="contact-mode" required>
+              <option value="">work with me</option>
+              <option value="co">Software creation</option>
+              <option value="mx">Temporary Collaboration</option>
+            </select>
+          </fieldset>
+          <label for="mensaje">Message</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          <br />
+          <label>By what means would you like to be contacted?</label>
+          <div>
+            <input type="checkbox" id="phone1" name="answer" required />
+            <label for="phone1">Phone</label>
+            <input type="checkbox" id="email1" name="answer" required />
+            <label for="email1">Email</label>
+            <input type="checkbox" id="whatsapp" name="answer" required />
+            <label for="whatsapp">WhatsApp</label>
+          </div>
+          <div>
+            <br />
+            <label>All the information is correct?</label>
+            <br />
+            <br />
+            <input type="radio" id="answer" name="answer" value="yes" />
+            <label for="answer">Yes</label>
+            <br />
+            <input type="radio" id="answer2" name="answer" value="no" />
+            <label for="answer2">No</label>
+          </div>
+          <button type="submit">Send Message</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2026</p>
+    </footer>
+  </body>
+</html>
